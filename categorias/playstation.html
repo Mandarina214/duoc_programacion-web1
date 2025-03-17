@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Catálogo de Juegos</title>
+    <style>
+        /* Estilos básicos para organización */
+        .categorias {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            padding: 20px;
+        }
+        
+        .categoria {
+            border: 1px solid #ddd;
+            padding: 15px;
+            border-radius: 8px;
+        }
+        
+        .juego {
+            margin: 15px 0;
+            padding: 10px;
+            border-bottom: 1px solid #eee;
+        }
+        
+        .navegacion {
+            background: #f0f0f0;
+            padding: 15px;
+            text-align: center;
+        }
+        
+        a {
+            text-decoration: none;
+            color: #2c3e50;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navegación principal -->
+    <nav class="navegacion">
+        <a href="#inicio">Inicio</a> | 
+        <a href="#accion">Acción</a> | 
+        <a href="#aventura">Aventura</a> | 
+        <a href="#estrategia">Estrategia</a> | 
+        <a href="#deporte">Deporte</a> |
+        <a href="#simulacion">Simulación</a>
+    </nav>
+
+    <!-- Sección de categorías -->
+    <main>
+        <section class="categorias">
+            <!-- Categoría Acción -->
+            <article class="categoria" id="accion">
+                <h2><a href="#accion">Acción</a></h2>
+                <img src="IMGS/Icono_Acción.png" alt="Categoría Acción" width="200">
+                
+                <div class="juego">
+                    <h3>The Simpsons Game</h3>
+                    <img src="IMGS/The Simpsons Game.png" alt="The Simpsons Game" width="150">
+                    <p>Lorem Ipsum.</p>
+                    <p>Precio: $59.99</p>
+                </div>
+                
+                <div class="juego">
+                    <h3>Tomb Raider: Legend</h3>
+                    <img src="IMGS/Tomb Raider Legend.jpg" alt="Tomb Raider: Legend" width="150">
+                    <p>Lorem Ipsum.</p>
+                    <p>Precio: $49.99</p>
+                </div>
+            </article>
+
+            <!-- Categoría Aventura -->
+            <article class="categoria" id="aventura">
+                <h2><a href="#aventura">Aventura</a></h2>
+                <img src="IMGS/Icono_Aventura.png" alt="Categoría Aventura" width="200">
+                
+                <div class="juego">
+                    <h3>Crash Bandicoot 3: Warped</h3>
+                    <img src="IMGS/Crash_Bandicoot.png" alt="Crash Bandicoot 3: Warped" width="150">
+                    <p>Lorem Ipsum.</p>
+                    <p>Precio: $39.99</p>
+                </div>
+                
+                <div class="juego">
+                    <h3>Indiana Jones Y El Cetro De Los Reyes</h3>
+                    <img src="IMGS/Indiana Jones.jpg" alt="Indiana Jones Y El Cetro De Los Reyes" width="150">
+                    <p>Lorem Ipsum.</p>
+                    <p>Precio: $44.99</p>
+                </div>
+            </article>
+
+            <!-- Categoría Estrategia -->
+            <article class="categoria" id="estrategia">
+                <h2><a href="#estrategia">Estrategia</a></h2>
+                <img src="IMGS/Icono_Estrategia.png" alt="Categoría Estrategia" width="200">
+                
+                <div class="juego">
+                    <h3>Command & Conquer: Red Alert</h3>
+                    <img src="IMGS/Red Alert.png" alt="Command & Conquer: Red Alert" width="150">
+                    <p>Lorem Ipsum.</p>
+                    <p>Precio: $29.99</p>
+                </div>
+                
+                <div class="juego">
+                    <h3>Lemmings</h3>
+                    <img src="IMGS/lemmings.jpg" alt="Lemmings" width="150">
+                    <p>Lorem Ipsum.</p>
+                    <p>Precio: $49.99</p>
+                </div>
+            </article>
+
+            <!-- Categoría Deporte -->
+            <article class="categoria" id="deporte">
+                <h2><a href="#deporte">Deporte</a></h2>
+                <img src="IMGS/Icono_Deporte.png" alt="Categoría Deporte" width="200">
+                
+                <div class="juego">
+                    <h3>Tony Hawk's Pro Skater 2</h3>
+                    <img src="IMGS/Tony Hawk's.jpg" alt="Tony Hawk's Pro Skater 2" width="150">
+                    <p>Lorem Ipsum.</p>
+                    <p>Precio: $59.99</p>
+                </div>
+                
+                <div class="juego">
+                    <h3>FIFA 2000</h3>
+                    <img src="IMGS/Fifa 2000 PlayStation.jpg" alt="FIFA 2000" width="150">
+                    <p>Lorem Ipsum.</p>
+                    <p>Precio: $49.99</p>
+
+                    <!-- Categoría Simulación -->
+            <article class="categoria" id="simulacion">
+                <h2><a href="#simulacion">Simulación</a></h2>
+                <img src="IMGS/Icono_Simulación.png" alt="Categoría Simulación" width="200">
+                
+                <div class="juego">
+                    <h3>Farming Simulator 15</h3>
+                    <img src="IMGS/Farming.png" alt="Farming Simulator 15" width="150">
+                    <p>Lorem Ipsum.</p>
+                    <p>Precio: $59.99</p>
+                </div>
+                
+                <div class="juego">
+                    <h3>Cabela's African Safari</h3>
+                    <img src="IMGS/Cabela's African Safari.png" alt="Cabela's African Safari" width="150">
+                    <p>Lorem Ipsum.</p>
+                    <p>Precio: $49.99</p>
+                </div>
+            </article>
+        </section>
+    </main>
+
+    <!-- Navegación inferior -->
+    <nav class="navegacion">
+        <a href="#inicio">Inicio</a> | 
+        <a href="#accion">Acción</a> | 
+        <a href="#aventura">Aventura</a> | 
+        <a href="#estrategia">Estrategia</a> | 
+        <a href="#deporte">Deporte</a> |
+        <a href="#simulacion">Simulación</a>
+    </nav>
+</body>
+</html>
