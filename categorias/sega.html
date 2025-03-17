@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Catálogo de Juegos</title>
+    <style>
+        /* Estilos básicos para organización */
+        .categorias {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            padding: 20px;
+        }
+        
+        .categoria {
+            border: 1px solid #ddd;
+            padding: 15px;
+            border-radius: 8px;
+        }
+        
+        .juego {
+            margin: 15px 0;
+            padding: 10px;
+            border-bottom: 1px solid #eee;
+        }
+        
+        .navegacion {
+            background: #f0f0f0;
+            padding: 15px;
+            text-align: center;
+        }
+        
+        a {
+            text-decoration: none;
+            color: #2c3e50;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navegación principal -->
+    <nav class="navegacion">
+        <a href="#inicio">Inicio</a> | 
+        <a href="#accion">Acción</a> | 
+        <a href="#aventura">Aventura</a> | 
+        <a href="#estrategia">Estrategia</a> | 
+        <a href="#deporte">Deporte</a> |
+        <a href="#simulacion">Simulación</a>
+    </nav>
+
+    <!-- Sección de categorías -->
+    <main>
+        <section class="categorias">
+            <!-- Categoría Acción -->
+            <article class="categoria" id="accion">
+                <h2><a href="#accion">Acción</a></h2>
+                <img src="IMGS/Icono_Acción.png" alt="Categoría Acción" width="200">
+                
+                <div class="juego">
+                    <h3>Virtual Bart</h3>
+                    <img src="IMGS/Virtual_Bart.jpg" alt="Virtual Bart" width="150">
+                    <p>Lorem Ipsum.</p>
+                    <p>Precio: $59.99</p>
+                </div>
+                
+                <div class="juego">
+                    <h3>Sonic the Hedgehog​</h3>
+                    <img src="IMGS/Sonic The Hedgehog.jpg" alt="Shenmue" width="150">
+                    <p>Lorem Ipsum.</p>
+                    <p>Precio: $49.99</p>
+                </div>
+            </article>
+
+            <!-- Categoría Aventura -->
+            <article class="categoria" id="aventura">
+                <h2><a href="#aventura">Aventura</a></h2>
+                <img src="IMGS/Icono_Aventura.png" alt="Categoría Aventura" width="200">
+                
+                <div class="juego">
+                    <h3>Gunstar Heroes</h3>
+                    <img src="IMGS/Gunstar Heroes.jpg" alt="Gunstar Heroes" width="150">
+                    <p>Lorem Ipsum.</p>
+                    <p>Precio: $39.99</p>
+                </div>
+                
+                <div class="juego">
+                    <h3>The Adventures of Mighty Max</h3>
+                    <img src="IMGS/Mighty Max.png" alt="The Adventures of Mighty Max​" width="150">
+                    <p>Lorem Ipsum.</p>
+                    <p>Precio: $44.99</p>
+                </div>
+            </article>
+
+            <!-- Categoría Estrategia -->
+            <article class="categoria" id="estrategia">
+                <h2><a href="#estrategia">Estrategia</a></h2>
+                <img src="IMGS/Icono_Estrategia.png" alt="Categoría Estrategia" width="200">
+                
+                <div class="juego">
+                    <h3>Clue</h3>
+                    <img src="IMGS/Sega Clue.jpg" alt="Clue" width="150">
+                    <p>Lorem Ipsum.</p>
+                    <p>Precio: $29.99</p>
+                </div>
+                
+                <div class="juego">
+                    <h3>The Lost Vikings</h3>
+                    <img src="IMGS/The Lost Vikings.png" alt="The Lost Vikings" width="150">
+                    <p>Lorem Ipsum.</p>
+                    <p>Precio: $49.99</p>
+                </div>
+            </article>
+
+            <!-- Categoría Deporte -->
+            <article class="categoria" id="deporte">
+                <h2><a href="#deporte">Deporte</a></h2>
+                <img src="IMGS/Icono_Deporte.png" alt="Categoría Deporte" width="200">
+                
+                <div class="juego">
+                    <h3>Barkley Shut Up and Jam!</h3>
+                    <img src="IMGS/Barkley.jpg" alt="Barkley Shut Up and Jam!" width="150">
+                    <p>Lorem Ipsum.</p>
+                    <p>Precio: $59.99</p>
+                </div>
+                
+                <div class="juego">
+                    <h3>World Cup USA '94</h3>
+                    <img src="IMGS/WorldCup USA 94.jpg" alt="World Cup USA '94" width="150">
+                    <p>Lorem Ipsum.</p>
+                    <p>Precio: $49.99</p>
+
+                    <!-- Categoría Simulación -->
+            <article class="categoria" id="simulacion">
+                <h2><a href="#simulacion">Simulación</a></h2>
+                <img src="IMGS/Icono_Simulación.png" alt="Categoría Simulación" width="200">
+                
+                <div class="juego">
+                    <h3>Sega Bass Fishing</h3>
+                    <img src="IMGS/Sega Bass Fishing.jpg" alt="Sega Bass Fishing" width="150">
+                    <p>Lorem Ipsum.</p>
+                    <p>Precio: $59.99</p>
+                </div>
+                
+                <div class="juego">
+                    <h3>Jennifer Capriati Tennis</h3>
+                    <img src="IMGS/Jennifer Tennis.jpg" alt="Jennifer Capriati Tennis" width="150">
+                    <p>Lorem Ipsum.</p>
+                    <p>Precio: $49.99</p>
+                </div>
+            </article>
+        </section>
+    </main>
+
+    <!-- Navegación inferior -->
+    <nav class="navegacion">
+        <a href="#inicio">Inicio</a> | 
+        <a href="#accion">Acción</a> | 
+        <a href="#aventura">Aventura</a> | 
+        <a href="#estrategia">Estrategia</a> | 
+        <a href="#deporte">Deporte</a> |
+        <a href="#simulacion">Simulación</a>
+    </nav>
+</body>
+</html>
