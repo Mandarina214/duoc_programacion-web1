@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Catálogo de Juegos</title>
+    <style>
+        /* Estilos básicos para organización */
+        .categorias {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            padding: 20px;
+        }
+        
+        .categoria {
+            border: 1px solid #ddd;
+            padding: 15px;
+            border-radius: 8px;
+        }
+        
+        .juego {
+            margin: 15px 0;
+            padding: 10px;
+            border-bottom: 1px solid #eee;
+        }
+        
+        .navegacion {
+            background: #f0f0f0;
+            padding: 15px;
+            text-align: center;
+        }
+        
+        a {
+            text-decoration: none;
+            color: #2c3e50;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navegación principal -->
+    <nav class="navegacion">
+        <a href="#inicio">Inicio</a> | 
+        <a href="#accion">Acción</a> | 
+        <a href="#aventura">Aventura</a> | 
+        <a href="#estrategia">Estrategia</a> | 
+        <a href="#deporte">Deporte</a> |
+        <a href="#simulacion">Simulación</a>
+    </nav>
+
+    <!-- Sección de categorías -->
+    <main>
+        <section class="categorias">
+            <!-- Categoría Acción -->
+            <article class="categoria" id="accion">
+                <h2><a href="#accion">Acción</a></h2>
+                <img src="IMGS/Icono_Acción.png" alt="Categoría Acción" width="200">
+                
+                <div class="juego">
+                    <h3>Mario Party 2</h3>
+                    <img src="IMGS/Mario_Party2.png" alt="Mario Party 2" width="150">
+                    <p>Lorem Ipsum.</p>
+                    <p>Precio: $59.99</p>
+                </div>
+                
+                <div class="juego">
+                    <h3>Star Fox 64</h3>
+                    <img src="IMGS/StarFox_64.png" alt="Star Fox 64" width="150">
+                    <p>Lorem Ipsum.</p>
+                    <p>Precio: $49.99</p>
+                </div>
+            </article>
+
+            <!-- Categoría Aventura -->
+            <article class="categoria" id="aventura">
+                <h2><a href="#aventura">Aventura</a></h2>
+                <img src="IMGS/Icono_Aventura.png" alt="Categoría Aventura" width="200">
+                
+                <div class="juego">
+                    <h3>The Legend of Zelda: Ocarina of Time</h3>
+                    <img src="IMGS/The_Legend_of_Zelda_Ocarina_of_Time.jpg" alt="The Legend of Zelda: Ocarina of Time" width="150">
+                    <p>Lorem Ipsum.</p>
+                    <p>Precio: $39.99</p>
+                </div>
+                
+                <div class="juego">
+                    <h3>Castlevania: Legacy of Darkness</h3>
+                    <img src="IMGS/Castlevania.png" alt="Castlevania: Legacy of Darkness" width="150">
+                    <p>Lorem Ipsum.</p>
+                    <p>Precio: $44.99</p>
+                </div>
+            </article>
+
+            <!-- Categoría Estrategia -->
+            <article class="categoria" id="estrategia">
+                <h2><a href="#estrategia">Estrategia</a></h2>
+                <img src="IMGS/Icono_Estrategia.png" alt="Categoría Estrategia" width="200">
+                
+                <div class="juego">
+                    <h3>Magical Tetris Challenge</h3>
+                    <img src="IMGS/Magical_Tetris_Challenge.jpg" alt="Magical Tetris Challenge" width="150">
+                    <p>Lorem Ipsum.</p>
+                    <p>Precio: $29.99</p>
+                </div>
+                
+                <div class="juego">
+                    <h3>Pokémon Stadium</h3>
+                    <img src="IMGS/Pokémon_Stadium.png" alt="Pokémon Stadium" width="150">
+                    <p>Lorem Ipsum.</p>
+                    <p>Precio: $49.99</p>
+                </div>
+            </article>
+
+            <!-- Categoría Deporte -->
+            <article class="categoria" id="deporte">
+                <h2><a href="#deporte">Deporte</a></h2>
+                <img src="IMGS/Icono_Deporte.png" alt="Categoría Deporte" width="200">
+                
+                <div class="juego">
+                    <h3>International Superstar Soccer 64</h3>
+                    <img src="IMGS/International_Superstar_Soccer_64.jpg" alt="International Superstar Soccer 64" width="150">
+                    <p>Lorem Ipsum.</p>
+                    <p>Precio: $59.99</p>
+                </div>
+                
+                <div class="juego">
+                    <h3>1080° Snowboarding</h3>
+                    <img src="IMGS/snowboarding.jpg" alt="1080° Snowboarding" width="150">
+                    <p>Lorem Ipsum.</p>
+                    <p>Precio: $49.99</p>
+
+                    <!-- Categoría Simulación -->
+            <article class="categoria" id="simulacion">
+                <h2><a href="#simulacion">Simulación</a></h2>
+                <img src="IMGS/Icono_Simulación.png" alt="Categoría Simulación" width="200">
+                
+                <div class="juego">
+                    <h3>Pilotwings 64</h3>
+                    <img src="IMGS/PilotWings_64.jpg" alt="Pilotwings 64" width="150">
+                    <p>Lorem Ipsum.</p>
+                    <p>Precio: $59.99</p>
+                </div>
+                
+                <div class="juego">
+                    <h3>Aero Fighters Assault</h3>
+                    <img src="IMGS/Aerofighters Assault.jpg" alt="Aero Fighters Assault" width="150">
+                    <p>Lorem Ipsum.</p>
+                    <p>Precio: $49.99</p>
+
+                </div>
+            </article>
+        </section>
+    </main>
